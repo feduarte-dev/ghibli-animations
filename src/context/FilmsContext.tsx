@@ -1,1 +1,5 @@
-// implemente a estrutura do context aqui.
+import { createContext } from 'react';
+
+const FilmContext = createContext({} as any);
+
+export default FilmContext;
